@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+
+body{
+    max-width: 1440px;
+    background-color: #F0F4F5;
+    overflow: hidden;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+}
+
+ul>li{
+    list-style-type: none;
+}
+
+ul>li>a{
+    text-decoration: none;
+    color: #00182F;
+    font-size: 20px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+ul>li>a:hover{
+    text-decoration: underline;
+}
+
+.form{
+    width: 300px;
+    margin: auto;
+    box-shadow: 1px 1px 7px 0.7px black;
+    border-radius: 10px;
+    height: 380px;
+}
+
+form{
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form>h2{
+    text-align: center;
+    padding-top: 15px;
+}
+
+input{
+    padding: 10px 15px;
+    border-radius: 13px;
+    border: none;
+}
+
+button{
+    background-color: #22BC7E;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 7px;
+    padding: 10px 0px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+#msg{
+    height: 80px;
+}
